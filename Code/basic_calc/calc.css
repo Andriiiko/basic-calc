@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight:bold;
+    color: #888888;
+    margin: 0px;
+}
+h1 {
+    margin: 30px 30px 5px;
+    color: #000000;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.firstNumber {
+    margin: 10px 30px;
+}
+.secondNumber {
+    margin: 10px 30px;
+}
+.chooseButton {
+    margin: 30px;
+}
+hr {
+    margin-left: 30px;
+    size: 5px;
+    width: 500px;
+    color: #888888;
+    background-color: #888888;
+    height: 2px;
+}
+input {
+    margin: 15px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #888888;
+    width: 150px;
+    height: 25px;
+}
+.buttons {
+    margin: 10px 25px;
+}
+button {
+    margin: 5px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #888888;
+    width: 60px;
+    height: 50px;
+
+}
+.result {
+    margin: 30px;
+}
+.total {
+    color: blue;
+}
