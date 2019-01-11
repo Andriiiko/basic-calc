@@ -33,6 +33,7 @@ function plus() {
     let total = document.querySelector(".total");
     result = val1 + val2;
     total.textContent = result;
+    egg();
 }
 
 function minus() {
@@ -80,6 +81,15 @@ function clear() {
     inp1.value = '';
     inp2.value = '';
     total.textContent = '0';
+
+
+}
+
+function egg() {
+    if (input1.value === "777" & input2.value === "223") {
+        alert(`Для чого тобі сума саме цих чисел? На світі стільки різних чисел, але чомусь ти вибрав саме ці! Тобі немає чим зайнятися? Моя тобі порада, займись чимось корисним! Якщо згідний зі мною, то тисни "Ok"`);
+    }
+
 
 
 }
