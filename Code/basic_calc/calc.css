@@ -49,9 +49,17 @@ button {
     height: 50px;
 
 }
+
+#ce {
+    background-color: red;
+    color: white;
+
+}
+
 .result {
     margin: 30px;
 }
+
 .total {
     color: blue;
 }

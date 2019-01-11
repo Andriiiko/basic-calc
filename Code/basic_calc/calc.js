@@ -4,6 +4,7 @@ const btnMultiply = document.getElementById("multiply");
 const btnDivide = document.getElementById("divide");
 const input1 = document.querySelector("#input1");
 const input2 = document.querySelector("#input2");
+const btnCE = document.querySelector("#ce");
 
 
 
@@ -11,6 +12,7 @@ btnPlus.addEventListener("click", plus);
 btnMinus.addEventListener("click", minus);
 btnMultiply.addEventListener("click", multiply);
 btnDivide.addEventListener("click", divide);
+btnCE.addEventListener("click", clear);
 
 function msg() {
     if (input1.value === "") {
@@ -56,9 +58,7 @@ function multiply() {
     let total = document.querySelector(".total");
     result = val1 * val2;
     total.textContent = result;
-    if(input.value === "") {
-        alert("Введіть будь ласка цифру в обидва поля!");
-    }
+
 }
 
 function divide() {
@@ -70,10 +70,18 @@ function divide() {
     let total = document.querySelector(".total");
     result = val1 / val2;
     total.textContent = result;
-    if(input.value === "") {
-        alert("Введіть будь ласка цифру в обидва поля!");
-    }
+
 }
 
+function clear() {
+    let inp1 = document.querySelector("#input1");
+    let inp2 = document.querySelector("#input2");
+    let total = document.querySelector(".total");
+    inp1.value = '';
+    inp2.value = '';
+    total.textContent = '0';
+
+
+}
 
 
