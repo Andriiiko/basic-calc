@@ -26,6 +26,7 @@ function msg() {
 
 function plus() {
     msg();
+    egg();
     let inp1 = document.querySelector("#input1");
     let val1 = Number(inp1.value);
     let inp2 = document.querySelector("#input2");
@@ -33,7 +34,7 @@ function plus() {
     let total = document.querySelector(".total");
     result = val1 + val2;
     total.textContent = result;
-    egg();
+
 }
 
 function minus() {
